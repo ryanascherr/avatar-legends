@@ -14,8 +14,11 @@
         <h1>Avatar Legends Character Creator</h1>
     </header>
     <main>
-        <h2>The Playbooks</h2>
-        <div class="playbooks">
+        <div class="your-characters">
+            <h2>Your Characters</h2>
+        </div>
+        <div class="playbooks hidden">
+            <h2>The Playbooks</h2>
             <div class="playbook">
                 <h3>The Adamant</h3>
                 <div class="img-container">
@@ -96,6 +99,21 @@
                 <p>The inheritor of a massively powerful legacy, known all over, with its own dark history. Their balance principles are Tradition vs. Progress.</p>
                 <button class="playbook-select" data-playbook="successor">Select</button>
             </div>
+        </div>
+        <div class="playbook-info hidden">
+            <div class="playbook-info-card">
+                <h3 class="feature-title playbook-info-title"></h3>
+                <div class="feature-content playbook-info-content hidden"></div>
+            </div>
+            <h3 class="stats-title playbook-info-title">Starting Stats</h3>
+            <div class="stats-content"></div>
+            <h3 class="connections-title playbook-info-title">Connections</h3>
+            <div class="connections-content"></div>
+            <h3 class="balance-title playbook-info-title">Moment of Balance</h3>
+            <div class="balance-content"></div>
+            <h3 class="principles-title playbook-info-title">Principles</h3>
+            <div class="principles-content"></div>
+            <button>Submit</button>
         </div>
     </main>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

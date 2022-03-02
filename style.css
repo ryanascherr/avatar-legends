@@ -35,6 +35,10 @@ img {
     border: 2px solid gold;
 }
 
+.hidden {
+    display: none;
+}
+
 .playbook {
     border-radius: 5px;
     box-shadow: 5px 5px 5px gray;
@@ -46,4 +50,23 @@ img {
     max-width: 500px;
     background-color: steelblue;
     color: white;
+}
+
+.playbook-info-card {
+
+}
+
+.playbook-info-title {
+    border: 2px solid steelblue;
+}
+
+.playbook-info-title:hover {
+    cursor: pointer;
+}
+
+.playbook-info-content {
+    border-right: 2px solid steelblue;
+    border-left: 2px solid steelblue;
+    border-bottom: 2px solid steelblue;
+    padding: 5px;
 }
