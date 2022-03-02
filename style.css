@@ -20,6 +20,10 @@ h3 {
     font-size: 200%;
 }
 
+button {
+    margin-top: 5px;
+}
+
 .img-container {
     max-width: 50%;
     min-width: 100px;
